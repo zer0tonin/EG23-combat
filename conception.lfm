@@ -1,8 +1,31 @@
 object Form1: TForm1
   Left = 406
-  Height = 240
+  Height = 423
   Top = 212
-  Width = 320
+  Width = 857
   Caption = 'Conception'
+  Menu = MainMenu1
   LCLVersion = '1.4.2.0'
+  object MainMenu1: TMainMenu
+    left = 45
+    top = 106
+    object Fichier: TMenuItem
+      Caption = 'Fichier'
+      object Nouveau: TMenuItem
+        Caption = 'Nouveau (CTRL-N)'
+      end
+      object Ouvrir: TMenuItem
+        Caption = 'Ouvrir (CTRL-O)'
+      end
+      object Enregistrer: TMenuItem
+        Caption = 'Enregistrer (CTRL-S)'
+      end
+      object Quitter: TMenuItem
+        Caption = 'Quitter'
+      end
+    end
+    object Aide: TMenuItem
+      Caption = 'Aide'
+    end
+  end
 end

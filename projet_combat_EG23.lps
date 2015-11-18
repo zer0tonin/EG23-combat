@@ -15,11 +15,14 @@
         <UsageCount Value="20"/>
       </Unit0>
       <Unit1>
-        <Filename Value="..\EG23-combat\conception.pas"/>
+        <Filename Value="conception.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
+        <TopLine Value="9"/>
+        <CursorPos X="52" Y="21"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -28,6 +31,7 @@
         <Filename Value="jeu.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="1"/>
         <UsageCount Value="20"/>
@@ -35,6 +39,30 @@
         <LoadedDesigner Value="True"/>
       </Unit2>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="6" HistoryIndex="5">
+      <Position1>
+        <Filename Value="conception.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="conception.pas"/>
+        <Caret Line="16" Column="53" TopLine="9"/>
+      </Position2>
+      <Position3>
+        <Filename Value="conception.pas"/>
+        <Caret Line="17" Column="50" TopLine="9"/>
+      </Position3>
+      <Position4>
+        <Filename Value="conception.pas"/>
+        <Caret Line="18" Column="55" TopLine="9"/>
+      </Position4>
+      <Position5>
+        <Filename Value="conception.pas"/>
+        <Caret Line="19" Column="52" TopLine="9"/>
+      </Position5>
+      <Position6>
+        <Filename Value="conception.pas"/>
+        <Caret Line="20" Column="52" TopLine="9"/>
+      </Position6>
+    </JumpHistory>
   </ProjectSession>
 </CONFIG>
