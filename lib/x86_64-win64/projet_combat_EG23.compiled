@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="Z:\lazarus\fpc\2.6.4\bin\x86_64-win64\fpc.exe" Date="1195665052"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq -FiZ:\EG23\Projet\EG23-combat-develop\lib\x86_64-win64 -FuZ:\EG23\Projet\EG23-combat -FuZ:\lazarus\lcl\units\x86_64-win64\win32 -FuZ:\lazarus\lcl\units\x86_64-win64 -FuZ:\lazarus\components\lazutils\lib\x86_64-win64 -FuZ:\lazarus\packager\units\x86_64-win64 -FuZ:\EG23\Projet\EG23-combat-develop\ -FUZ:\EG23\Projet\EG23-combat-develop\lib\x86_64-win64\ -dLCL -dLCLwin32 projet_combat_EG23.lpr"/>
+</CONFIG>

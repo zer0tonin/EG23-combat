@@ -12,7 +12,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="22"/>
       </Unit0>
       <Unit1>
         <Filename Value="conception.pas"/>
@@ -21,9 +21,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="9"/>
-        <CursorPos X="52" Y="21"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="119"/>
+        <CursorPos X="17" Y="143"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -34,35 +34,133 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="1"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="9"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
     </Units>
-    <JumpHistory Count="6" HistoryIndex="5">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="conception.pas"/>
+        <Caret Line="34" Column="55" TopLine="9"/>
       </Position1>
       <Position2>
         <Filename Value="conception.pas"/>
-        <Caret Line="16" Column="53" TopLine="9"/>
+        <Caret Line="35" Column="55" TopLine="9"/>
       </Position2>
       <Position3>
         <Filename Value="conception.pas"/>
-        <Caret Line="17" Column="50" TopLine="9"/>
+        <Caret Line="36" Column="55" TopLine="9"/>
       </Position3>
       <Position4>
         <Filename Value="conception.pas"/>
-        <Caret Line="18" Column="55" TopLine="9"/>
+        <Caret Line="37" Column="55" TopLine="9"/>
       </Position4>
       <Position5>
         <Filename Value="conception.pas"/>
-        <Caret Line="19" Column="52" TopLine="9"/>
+        <Caret Line="38" Column="55" TopLine="10"/>
       </Position5>
       <Position6>
         <Filename Value="conception.pas"/>
-        <Caret Line="20" Column="52" TopLine="9"/>
+        <Caret Line="39" Column="55" TopLine="11"/>
       </Position6>
+      <Position7>
+        <Filename Value="conception.pas"/>
+        <Caret Line="40" Column="55" TopLine="12"/>
+      </Position7>
+      <Position8>
+        <Filename Value="conception.pas"/>
+        <Caret Line="41" Column="55" TopLine="13"/>
+      </Position8>
+      <Position9>
+        <Filename Value="conception.pas"/>
+        <Caret Line="42" Column="55" TopLine="14"/>
+      </Position9>
+      <Position10>
+        <Filename Value="conception.pas"/>
+        <Caret Line="43" Column="55" TopLine="15"/>
+      </Position10>
+      <Position11>
+        <Filename Value="conception.pas"/>
+        <Caret Line="44" Column="55" TopLine="17"/>
+      </Position11>
+      <Position12>
+        <Filename Value="conception.pas"/>
+        <Caret Line="45" Column="55" TopLine="18"/>
+      </Position12>
+      <Position13>
+        <Filename Value="conception.pas"/>
+        <Caret Line="46" Column="55" TopLine="19"/>
+      </Position13>
+      <Position14>
+        <Filename Value="conception.pas"/>
+        <Caret Line="47" Column="55" TopLine="20"/>
+      </Position14>
+      <Position15>
+        <Filename Value="conception.pas"/>
+        <Caret Line="46" Column="55" TopLine="20"/>
+      </Position15>
+      <Position16>
+        <Filename Value="conception.pas"/>
+        <Caret Line="48" Column="74" TopLine="21"/>
+      </Position16>
+      <Position17>
+        <Filename Value="conception.pas"/>
+        <Caret Line="90" Column="33" TopLine="70"/>
+      </Position17>
+      <Position18>
+        <Filename Value="conception.pas"/>
+        <Caret Line="96" Column="36" TopLine="79"/>
+      </Position18>
+      <Position19>
+        <Filename Value="conception.pas"/>
+        <Caret Line="97" Column="28" TopLine="79"/>
+      </Position19>
+      <Position20>
+        <Filename Value="conception.pas"/>
+        <Caret Line="98" Column="8" TopLine="79"/>
+      </Position20>
+      <Position21>
+        <Filename Value="conception.pas"/>
+        <Caret Line="97" Column="67" TopLine="79"/>
+      </Position21>
+      <Position22>
+        <Filename Value="conception.pas"/>
+        <Caret Line="98" Column="50" TopLine="81"/>
+      </Position22>
+      <Position23>
+        <Filename Value="conception.pas"/>
+        <Caret Line="120" Column="30" TopLine="92"/>
+      </Position23>
+      <Position24>
+        <Filename Value="conception.pas"/>
+        <Caret Line="112" Column="24" TopLine="96"/>
+      </Position24>
+      <Position25>
+        <Filename Value="conception.pas"/>
+        <Caret Line="116" Column="24" TopLine="96"/>
+      </Position25>
+      <Position26>
+        <Filename Value="conception.pas"/>
+        <Caret Line="118" Column="29" TopLine="96"/>
+      </Position26>
+      <Position27>
+        <Filename Value="conception.pas"/>
+        <Caret Line="120" Column="29" TopLine="98"/>
+      </Position27>
+      <Position28>
+        <Filename Value="conception.pas"/>
+        <Caret Line="136" Column="89" TopLine="108"/>
+      </Position28>
+      <Position29>
+        <Filename Value="conception.pas"/>
+        <Caret Line="113" Column="3" TopLine="108"/>
+      </Position29>
+      <Position30>
+        <Filename Value="conception.pas"/>
+        <Caret Line="116" Column="55" TopLine="115"/>
+      </Position30>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
