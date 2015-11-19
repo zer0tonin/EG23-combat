@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
-  ExtCtrls, StdCtrls, Spin, jeu;
+  ExtCtrls, StdCtrls, Spin, DOM, XMLwrite, jeu;
 
 type
 
@@ -71,7 +71,6 @@ var
   coeffCrit: double; //Coefficient d’un coup critique
   dureeMax: integer; //Durée maximal pour que le joueur choisisse une action
   mode: integer; //Mode de jeu (0 = 1PvsIA, 1 = 1Pvs2P, 2 = IAvsIA)
-  fichier: string; //Nom du fichier pour ouverture/enregistrement
 
 implementation
 
@@ -111,9 +110,27 @@ begin
 end;
 
 procedure TForm1.EnregistrerClick(Sender: TObject);
+var
+  filename: string; //Nom du fichier pour ouverture/enregistrement
+  doc: TXMLDocument; //Contient des données XML
+  root, node, value: TDOMNode; //Noeuds XML
 begin
-  fichier : SaveDialog1.Filename;
-  //Eventuellement écrire les paramètres dans un XML
+  //Récupération du nom du fichier
+  if SaveDialog1.Execute then //Plante
+     filename := SaveDialog1.Filename;
+
+  //Ecrit les paramètres dans un XML
+  Doc := TXMLDocument.Create;
+
+  root := Doc.CreateElement('parametres');
+  Doc.Appendchild(root);
+
+  root := Doc.DocumentElement;
+  node := Doc.CreateElement('maxPV');
+  value := Doc.CreateTextNode(IntToStr(SpinEdit1.Value));
+  root.AppendChild(node);
+
+  writeXMLFile(Doc, filename);
 end;
 
 procedure TForm1.NouveauClick(Sender: TObject);
@@ -133,9 +150,11 @@ begin
 end;
 
 procedure TForm1.OuvrirClick(Sender: TObject);
+var
+  filename: string;
 begin
-  fichier := OpenDialog1.Filename;
-  //Eventuellement faire une fonction permettant de charger les paramètres depuis un XML
+  filename := OpenDialog1.Filename;
+  //Charge les paramètres depuis un XML
 end;
 
 procedure TForm1.QuitterClick(Sender: TObject);
