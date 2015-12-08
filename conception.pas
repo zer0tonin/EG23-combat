@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
-  ExtCtrls, StdCtrls, Spin, DOM, XMLwrite, jeu;
+  ExtCtrls, StdCtrls, Spin, DOM, XMLwrite, jeu, aide;
 
 type
 
@@ -47,6 +47,7 @@ type
     SpinEdit7: TSpinEdit;
     SpinEdit8: TSpinEdit;
     SpinEdit9: TSpinEdit;
+    procedure AideClick(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure EnregistrerClick(Sender: TObject);
     procedure NouveauClick(Sender: TObject);
@@ -107,6 +108,13 @@ begin
            Form1.Hide();
            Form2.show();
       end;
+end;
+
+procedure TForm1.AideClick(Sender: TObject);
+begin
+  //On affiche l'aide
+  Form3.Show();
+  Form1.Hide();
 end;
 
 procedure TForm1.EnregistrerClick(Sender: TObject);

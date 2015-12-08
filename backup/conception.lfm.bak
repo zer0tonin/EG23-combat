@@ -270,6 +270,7 @@ object Form1: TForm1
     end
     object Aide: TMenuItem
       Caption = 'Aide'
+      OnClick = AideClick
     end
   end
   object OpenDialog1: TOpenDialog
