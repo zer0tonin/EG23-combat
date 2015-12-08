@@ -5,12 +5,6 @@ unit conception;
 interface
 
 uses
-<<<<<<< HEAD
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs;
-
-type
-  TForm1 = class(TForm)
-=======
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
   ExtCtrls, StdCtrls, Spin, DOM, XMLwrite, jeu, aide;
 
@@ -60,7 +54,6 @@ type
     procedure NouveauClick(Sender: TObject);
     procedure OuvrirClick(Sender: TObject);
     procedure QuitterClick(Sender: TObject);
->>>>>>> refs/remotes/origin/develop
   private
     { private declarations }
   public
@@ -69,8 +62,6 @@ type
 
 var
   Form1: TForm1;
-<<<<<<< HEAD
-=======
   maxPV: integer; //Nombre maximal de points de vie d’un joueur
   maxPE: integer; //Nombre maximal de points d’énergie d’un joueur
   minDegat: integer; //Dégât minimal quand un coup « porte»
@@ -82,14 +73,11 @@ var
   coeffCrit: double; //Coefficient d’un coup critique
   dureeMax: integer; //Durée maximal pour que le joueur choisisse une action
   mode: integer; //Mode de jeu (0 = 1PvsIA, 1 = 1Pvs2P, 2 = IAvsIA)
->>>>>>> refs/remotes/origin/develop
 
 implementation
 
 {$R *.lfm}
 
-<<<<<<< HEAD
-=======
 { TForm1 }
 
 
@@ -188,6 +176,5 @@ begin
   Form1.Close();
 end;
 
->>>>>>> refs/remotes/origin/develop
 end.
 

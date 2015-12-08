@@ -33,31 +33,12 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-<<<<<<< HEAD
-    <Units Count="3">
-=======
     <Units Count="4">
->>>>>>> refs/remotes/origin/develop
       <Unit0>
         <Filename Value="projet_combat_EG23.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-<<<<<<< HEAD
-        <Filename Value="unit1.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form1"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Unit1"/>
-      </Unit1>
-      <Unit2>
-        <Filename Value="unit2.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form2"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Unit2"/>
-      </Unit2>
-=======
         <Filename Value="conception.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
@@ -77,7 +58,6 @@
         <ComponentName Value="Form3"/>
         <ResourceBaseClass Value="Form"/>
       </Unit3>
->>>>>>> refs/remotes/origin/develop
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -88,10 +68,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-<<<<<<< HEAD
-=======
       <OtherUnitFiles Value="..\EG23-combat"/>
->>>>>>> refs/remotes/origin/develop
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>

@@ -4,26 +4,6 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-<<<<<<< HEAD
-    <Units Count="3">
-      <Unit0>
-        <Filename Value="projet_combat_EG23.lpr"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
-      </Unit0>
-      <Unit1>
-        <Filename Value="unit1.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form1"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Unit1"/>
-        <IsVisibleTab Value="True"/>
-        <UsageCount Value="20"/>
-=======
     <Units Count="4">
       <Unit0>
         <Filename Value="projet_combat_EG23.lpr"/>
@@ -42,25 +22,10 @@
         <TopLine Value="145"/>
         <CursorPos X="3" Y="147"/>
         <UsageCount Value="24"/>
->>>>>>> refs/remotes/origin/develop
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
-<<<<<<< HEAD
-        <Filename Value="unit2.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form2"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Unit2"/>
-        <EditorIndex Value="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
-      </Unit2>
-    </Units>
-    <JumpHistory HistoryIndex="-1"/>
-=======
         <Filename Value="jeu.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form2"/>
@@ -207,6 +172,5 @@
         <Caret Line="56" TopLine="34"/>
       </Position30>
     </JumpHistory>
->>>>>>> refs/remotes/origin/develop
   </ProjectSession>
 </CONFIG>

@@ -1,12 +1,5 @@
 object Form1: TForm1
   Left = 406
-<<<<<<< HEAD
-  Height = 240
-  Top = 212
-  Width = 320
-  Caption = 'Conception'
-  LCLVersion = '1.4.2.0'
-=======
   Height = 423
   Top = 212
   Width = 857
@@ -289,5 +282,4 @@ object Form1: TForm1
     left = 176
     top = 360
   end
->>>>>>> refs/remotes/origin/develop
 end

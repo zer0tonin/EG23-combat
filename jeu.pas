@@ -5,12 +5,6 @@ unit jeu;
 interface
 
 uses
-<<<<<<< HEAD
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs;
-
-type
-  TForm2 = class(TForm)
-=======
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, aide;
 
 type
@@ -19,7 +13,6 @@ type
 
   TForm2 = class(TForm)
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
->>>>>>> refs/remotes/origin/develop
   private
     { private declarations }
   public
@@ -30,11 +23,6 @@ var
   Form2: TForm2;
 
 implementation
-<<<<<<< HEAD
-
-{$R *.lfm}
-
-=======
 uses conception;
 
 {$R *.lfm}
@@ -48,6 +36,5 @@ begin
   Form2.Hide();
 end;
 
->>>>>>> refs/remotes/origin/develop
 end.
 
