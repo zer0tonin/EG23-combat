@@ -50,6 +50,7 @@ type
     procedure AideClick(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure EnregistrerClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
     procedure NouveauClick(Sender: TObject);
     procedure OuvrirClick(Sender: TObject);
     procedure QuitterClick(Sender: TObject);
@@ -139,6 +140,11 @@ begin
   root.AppendChild(node);
 
   writeXMLFile(Doc, filename);
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+
 end;
 
 procedure TForm1.NouveauClick(Sender: TObject);

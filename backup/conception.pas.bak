@@ -113,7 +113,7 @@ end;
 procedure TForm1.AideClick(Sender: TObject);
 begin
   //On affiche l'aide
-  Form4.Show();
+  Form3.Show();
   Form1.Hide();
 end;
 
