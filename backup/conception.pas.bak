@@ -50,6 +50,7 @@ type
     procedure AideClick(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure EnregistrerClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
     procedure NouveauClick(Sender: TObject);
     procedure OuvrirClick(Sender: TObject);
     procedure QuitterClick(Sender: TObject);
@@ -141,6 +142,11 @@ begin
   writeXMLFile(Doc, filename);
 end;
 
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+
+end;
+
 procedure TForm1.NouveauClick(Sender: TObject);
 begin
   //On réinitilise les valeurs
@@ -161,7 +167,8 @@ procedure TForm1.OuvrirClick(Sender: TObject);
 var
   filename: string;
 begin
-  filename := OpenDialog1.Filename;
+  if OpenDialog1.Execute then
+     filename := OpenDialog1.Filename;
   //Charge les paramètres depuis un XML
 end;
 

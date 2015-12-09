@@ -167,7 +167,8 @@ procedure TForm1.OuvrirClick(Sender: TObject);
 var
   filename: string;
 begin
-  filename := OpenDialog1.Filename;
+  if OpenDialog1.Execute then
+     filename := OpenDialog1.Filename;
   //Charge les paramètres depuis un XML
 end;
 

@@ -1,10 +1,10 @@
 object Form1: TForm1
   Left = 406
-  Height = 423
-  Top = 212
+  Height = 404
+  Top = 203
   Width = 857
   Caption = 'Conception'
-  ClientHeight = 403
+  ClientHeight = 384
   ClientWidth = 857
   Menu = MainMenu1
   OnCreate = FormCreate

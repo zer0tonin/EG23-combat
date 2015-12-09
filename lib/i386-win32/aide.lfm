@@ -17,6 +17,7 @@ object Form3: TForm3
     Lines.Strings = (
       'Memo1'
     )
+    ReadOnly = True
     TabOrder = 0
   end
   object ListBox1: TListBox
