@@ -107,6 +107,7 @@ begin
       begin
            //On lance le jeu et cache l'écran de conception
            Form1.Hide();
+           Application.CreateForm(TForm2, Form2);
            Form2.show();
       end;
 end;

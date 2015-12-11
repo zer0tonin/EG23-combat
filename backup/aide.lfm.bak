@@ -8,7 +8,7 @@ object Form3: TForm3
   ClientWidth = 607
   OnClose = FormClose
   OnShow = FormShow
-  LCLVersion = '1.4.2.0'
+  LCLVersion = '1.4.4.0'
   object Memo1: TMemo
     Left = 136
     Height = 373
@@ -17,6 +17,7 @@ object Form3: TForm3
     Lines.Strings = (
       'Memo1'
     )
+    ReadOnly = True
     TabOrder = 0
   end
   object ListBox1: TListBox

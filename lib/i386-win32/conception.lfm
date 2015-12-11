@@ -1,14 +1,14 @@
 object Form1: TForm1
-  Left = 406
+  Left = 265
   Height = 404
-  Top = 203
+  Top = 358
   Width = 857
   Caption = 'Conception'
   ClientHeight = 384
   ClientWidth = 857
   Menu = MainMenu1
   OnCreate = FormCreate
-  LCLVersion = '1.4.2.0'
+  LCLVersion = '1.4.4.0'
   object Panel1: TPanel
     Left = 40
     Height = 145

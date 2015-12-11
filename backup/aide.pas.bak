@@ -14,9 +14,9 @@ type
   TForm3 = class(TForm)
     ListBox1: TListBox;
     Memo1: TMemo;
-    procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
-    procedure FormShow(Sender: TObject);
-    procedure ListBox1SelectionChange(Sender: TObject; User: boolean);
+   // procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
+   // procedure FormShow(Sender: TObject);
+   // procedure ListBox1SelectionChange(Sender: TObject; User: boolean);
   private
     { private declarations }
   public
